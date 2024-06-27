@@ -9,10 +9,16 @@ public class HealPoint : MonoBehaviour
 	public int HP = 20;
 	public bool isEnemy;
 	public Text t;
+	public Contr Player;
+	public Animator Achivement1;
 
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Bullet" && isEnemy){
 			HP -= 2;
+			if(Player.v3 > 0.01f){
+				Achivement1.SetBool("Ach", true);
+				StartCoroutine("end");
+			}
 		}
 	}
 
@@ -35,5 +41,10 @@ public class HealPoint : MonoBehaviour
 				t.text = hps;
 			}
 		}
+	}
+
+	IEnumerator end(){
+		yield return new WaitForSeconds(0.1f); 
+		Achivement1.SetBool("Ach", false);
 	}
 }

@@ -11,6 +11,7 @@ public class Gun : MonoBehaviour
 	public int ammo1;
 	public Text am;
 
+	public bool flag = false;
 	public float dt;
 	public float cdt;
 
@@ -24,28 +25,28 @@ public class Gun : MonoBehaviour
 			ammo = ammo1;
 		}
 
-		bool flag = false;
-
 		if(Input.GetMouseButtonDown(0) && ammo > 0){
 			flag = true;
 			GameObject gm = Instantiate(bullet, fcam.position, Quaternion.Euler(fcam.eulerAngles));
 			ammo -= 1;
 			print(flag);
+			cdt = dt;
 		}
 		string str = $"Ammo: {ammo}";
 		if(am.text != str){
 			am.text = str;
 		}
-		if(flag == false) {
-			if(cdt <= 0){
-				if(Input.GetMouseButton(0) && ammo > 0){
-					GameObject gm = Instantiate(bullet, fcam.position, Quaternion.Euler(fcam.eulerAngles));
-					ammo -= 1;
-					cdt = dt;
-				}
-			} else {
-				cdt -= Time.deltaTime;
+		
+		if(cdt <= 0){
+			if(Input.GetMouseButton(0) && ammo > 0){
+				GameObject gm = Instantiate(bullet, fcam.position, Quaternion.Euler(fcam.eulerAngles));
+				ammo -= 1;
+				cdt = dt;
+				print(flag);
 			}
+		} else {
+			cdt -= Time.deltaTime;
 		}
+		
 	}
 }

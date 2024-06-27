@@ -1,0 +1,471 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1719491998612375, "dur": 1398816, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719491998612638, "dur": 5090, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719491998617731, "dur": 46448, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719491998664181, "dur": 833079, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719491999497262, "dur": 504179, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719492000001442, "dur": 9748, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719492000011929, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1719491999229218, "dur": 226991, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719491999230327, "dur": 51782, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719491999435468, "dur": 5086, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719491999440559, "dur": 15637, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719491999441407, "dur": 13986, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719491999461898, "dur": 1374, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719491999460958, "dur": 2346, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719492000012084, "dur": 454, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1719491999566037, "dur":1655, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999567700, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1719491999567772, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1719491999567788, "dur":182, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1719491999567999, "dur":654, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999568653, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968652, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968659, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968675, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968680, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968687, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968690, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968696, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968699, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968706, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968731, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999968783, "dur":2320, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1719491999568977, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999568977, "dur":4951, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999573943, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1719491999573947, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999574068, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1719491999574074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999574821, "dur":4042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1719491999578864, "dur":1245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1719491999580115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999580126, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1719491999581803, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1719491999581949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999581959, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1719491999583799, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1719491999583947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999583957, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1719491999585653, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1719491999586658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999586668, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1719491999588204, "dur":4333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999592543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999592994, "dur":27597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999620658, "dur":1330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter.exe" }}
+,{ "pid":12345, "tid":1, "ts":1719491999621993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999621999, "dur":11776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter.exe" }}
+,{ "pid":12345, "tid":1, "ts":1719491999633872, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999634645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999634729, "dur":10502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999645283, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999645722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999645731, "dur":8704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999654541, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999655050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999655063, "dur":7447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999662572, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999663057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999663064, "dur":7057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999670244, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999670606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999670615, "dur":8007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999678774, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999679314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999679380, "dur":11470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999690922, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999691359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999691369, "dur":6824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999698251, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999698518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999698528, "dur":10335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999708918, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999709350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999709359, "dur":10911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999720321, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999720619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999720629, "dur":9796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999730507, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999730766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999730774, "dur":13325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999744150, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999744598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999744607, "dur":3910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999748593, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999748861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999748870, "dur":6361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999755282, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999755711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999755720, "dur":5281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999761052, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999761300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999761307, "dur":5131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999766490, "dur":1225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999767719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999767750, "dur":5911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999773714, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999773939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999773946, "dur":4742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999778792, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999779090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999779100, "dur":5728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999784884, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999785241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999785254, "dur":6444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999791750, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999792114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999792124, "dur":5371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999797544, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999797864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999797872, "dur":5909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999803848, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999804284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999804293, "dur":5571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999809919, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999810183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999810212, "dur":4366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999814630, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999814875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999814883, "dur":5340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999820297, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999820608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999820619, "dur":5237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999825913, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999826178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999826187, "dur":5023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999831259, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999831542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999831551, "dur":5603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999837202, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999837641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999837648, "dur":5415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999843112, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999843369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999843378, "dur":5038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999848479, "dur":958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999849441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999849460, "dur":11810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999861325, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999861603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999861611, "dur":4226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999865890, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999866138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999866169, "dur":4537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999870920, "dur":692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999871619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999871629, "dur":8928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999880613, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999881113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999881122, "dur":10574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999891746, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999892068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999892077, "dur":3330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999895453, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999895679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999895686, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999898204, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999898532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999898541, "dur":6781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999905374, "dur":2226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999907610, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999907623, "dur":14386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999922063, "dur":1049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999923117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999923127, "dur":7876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999931057, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999931357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999931367, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999934758, "dur":502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999935263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999935272, "dur":8842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719491999944170, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1719491999944395, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999944406, "dur":3574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1719491999948053, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1719491999948122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719491999948185, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1719491999949514, "dur":19084, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999569171, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999569171, "dur":4817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999573989, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1719491999574173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999578350, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1719491999580933, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1719491999581076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999581272, "dur":2966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1719491999584310, "dur":838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1719491999585151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999585183, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1719491999586461, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1719491999586632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999586642, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1719491999588412, "dur":43978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999632397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999632417, "dur":67062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999699614, "dur":900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999700521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999700532, "dur":8326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999708915, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999709366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999709371, "dur":22457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999731905, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999732234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999732253, "dur":16882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999749189, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999749465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999749472, "dur":7770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999757310, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999757574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999757583, "dur":4489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999762169, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999762543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999762553, "dur":4857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999767461, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999767745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999767752, "dur":7475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999775287, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999775556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999775566, "dur":5099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999780727, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999781117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999781127, "dur":13842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999795019, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999795269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999795278, "dur":9071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999804435, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999804708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999804715, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999809146, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999809403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999809410, "dur":5319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999814777, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999815107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999815114, "dur":5484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999820666, "dur":1828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999822500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999822511, "dur":14324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999836903, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999837206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999837215, "dur":5037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999842313, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999842676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999842686, "dur":6412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999849155, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999849893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999849927, "dur":7272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999857258, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999857598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999857609, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999860687, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999861259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999861269, "dur":4771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999866093, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999866660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999866668, "dur":6812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999873531, "dur":3203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999876739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999876749, "dur":18128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999894930, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999895278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999895287, "dur":8405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999903763, "dur":2936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999906704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999906715, "dur":20421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999927182, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999927628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999927638, "dur":12355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719491999940049, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1719491999940100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999940105, "dur":5430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1719491999945581, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1719491999945637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999945643, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1719491999946933, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1719491999946988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999946995, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1719491999948351, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1719491999948586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719491999948592, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1719491999949696, "dur":18795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999569131, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999569132, "dur":4805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999573943, "dur":1928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1719491999575876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999576069, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1719491999578773, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1719491999578916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999578924, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1719491999581224, "dur":954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1719491999582181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999582189, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1719491999583921, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1719491999584131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999584242, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1719491999585824, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1719491999586004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999586014, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1719491999588427, "dur":124406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719491999712838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999712847, "dur":222333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719491999935236, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719491999935489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999935496, "dur":4306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719491999939858, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1719491999939917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999939926, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1719491999941696, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1719491999941753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999941762, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1719491999943616, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1719491999943890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999943901, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1719491999945340, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1719491999945399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999945407, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1719491999947144, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1719491999947191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719491999947197, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1719491999948535, "dur":20065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999569205, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999569205, "dur":4784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999573990, "dur":1882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1719491999575876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999576126, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1719491999579105, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1719491999579242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999579261, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1719491999582165, "dur":1161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1719491999583332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999583343, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1719491999584766, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1719491999585001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999585012, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1719491999587104, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1719491999587235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999587244, "dur":3614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1719491999591130, "dur":11654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1719491999602789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999602798, "dur":30225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1719491999633181, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1719491999633445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999633510, "dur":36823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1719491999670605, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999671102, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999671192, "dur":12086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999683418, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999683850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999683860, "dur":11654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999695565, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999695843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999695875, "dur":6899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999702857, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999703330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999703339, "dur":10850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999714238, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999714554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999714564, "dur":8152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999722785, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999723221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999723233, "dur":6293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999729581, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999729853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999729862, "dur":6772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999736693, "dur":1795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999738495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999738561, "dur":10479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999749112, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999749390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999749398, "dur":6371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999755821, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999756113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999756121, "dur":4763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999760941, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999761284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999761293, "dur":5141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999766488, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999766872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999766882, "dur":6357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999773297, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999773558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999773568, "dur":9780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999783407, "dur":832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999784245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999784293, "dur":8019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999792369, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999792647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999792656, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999797222, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999797477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999797487, "dur":5545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999803105, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999803453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999803462, "dur":5106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999808623, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999808908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999808917, "dur":5146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999814125, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999814408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999814417, "dur":6133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999820623, "dur":631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999821259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999821269, "dur":5084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999826405, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999826630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999826638, "dur":4576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999831266, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999831582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999831589, "dur":5541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999837186, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999837502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999837510, "dur":4727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999842309, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999842686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999842692, "dur":5133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999847882, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999848183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999848192, "dur":10269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999858514, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999858876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999858886, "dur":5126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999864060, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999864328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999864340, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999867197, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999867729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999867739, "dur":6501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999874288, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999874552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999874561, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999877840, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999878369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999878380, "dur":7419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999885982, "dur":1259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999887247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999887258, "dur":11808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999899125, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999899405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999899414, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999902854, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999903711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999903721, "dur":5553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999909328, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999909594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999909604, "dur":16306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999925961, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999926282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999926290, "dur":6885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999933237, "dur":4980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999938223, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719491999938235, "dur":29393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nicol/Desktop/Alogical/Build1001a/Shooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719491999967692, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1719491999967694, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719491999973677, "dur":1932, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1719492000012671, "dur": 33646, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719492000011901, "dur": 34456, "ph": "X", "name": "Write chrome-trace events", "args": {} },

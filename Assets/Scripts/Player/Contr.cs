@@ -15,7 +15,8 @@ public class Contr : MonoBehaviour
 	private Vector3 temp;
 	public float v2;
 	public Text pos;
-
+	public Text vel;
+	public float v3;
 	public bool isStatic;
 
 	void Start(){
@@ -36,19 +37,21 @@ public class Contr : MonoBehaviour
 			Vector3 movement = new Vector3(Horizontal, 0f, Vertical);
 			movement = Quaternion.Euler(0f, Y, 0f) * movement;
 
-			transform.eulerAngles = new Vector3(0f, Y, 0f);
-
 			float vx = Mathf.Abs(transform.position.x) - Mathf.Abs(temp.x);
 			float vz = Mathf.Abs(transform.position.z) - Mathf.Abs(temp.z);
 
 			v2 = Mathf.Pow(vx, 2) + Mathf.Pow(vz, 2);
 			float m2 = v*v;
+			v3 = v2 + Mathf.Pow(Mathf.Abs(transform.position.y - temp.y), 2); 
 
+			if(vel.text != $"Vel: {v3}"){
+				vel.text = $"Vel: {v3}";
+			}
 			if(v2 <= m2){
 				rb.AddForce(movement);			
 			}
 
-			if(Input.GetKeyDown(KeyCode.Space)){
+			if(Input.GetKeyDown(KeyCode.Space) && IsGrounded()){
 				rb.AddForce(new Vector3(0, 100*jf, 0));
 			}
 
@@ -63,6 +66,10 @@ public class Contr : MonoBehaviour
 		if(pos.text != str){
 			pos.text = str;
 		}
+
+		X = X % 360;
+		Y = Y % 360;
+		transform.eulerAngles = new Vector3(0f, Y, 0f);
 	}
 
 
@@ -85,5 +92,14 @@ public class Contr : MonoBehaviour
 		} else {
 			UnlockCursor();
 		}
+	}
+
+	public bool IsGrounded() {
+    RaycastHit hit;
+	    float rayLength = 1.1f; // Adjust based on your character's size
+	    if (Physics.Raycast(transform.position, Vector3.down, out hit, rayLength)) {
+	        return true;
+	    }
+	    return false;
 	}
 }
