@@ -14,6 +14,9 @@ public class Gun : MonoBehaviour
 	public bool flag = false;
 	public float dt;
 	public float cdt;
+	public GameObject scope;
+	public Camera cm;
+	public float mb;
 
 	void Start(){
 		cdt = dt;
@@ -21,6 +24,17 @@ public class Gun : MonoBehaviour
 	}
 
 	void Update(){
+		if(Input.GetMouseButton(1)){
+			scope.SetActive(true);
+			cm.fieldOfView = 30f - mb;
+			mb -= Input.mouseScrollDelta.y;
+			mb = Mathf.Clamp(mb, -15f, 15f);
+			print(mb);
+		} else {
+			scope.SetActive(false);
+			cm.fieldOfView = 60f;
+		}
+
 		if(Input.GetKeyDown(KeyCode.R)){
 			ammo = ammo1;
 		}
