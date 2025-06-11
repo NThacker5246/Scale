@@ -11,8 +11,8 @@ public class ProjectTile : MonoBehaviour
 	private bool isGrounded;
 	public Rigidbody rb;
 
-	void Start(){
-		player = GameObject.FindGameObjectWithTag("Player").transform;
+	void OnEnable(){
+		//player = GameObject.FindGameObjectWithTag("Player").transform;
 		target = player.position;
 	}
 
@@ -29,7 +29,7 @@ public class ProjectTile : MonoBehaviour
 		if(!isGrounded) {
 			if(other.tag == "Player"){
 				other.GetComponent<HealPoint>().Damage(2);
-				Destroy(gameObject);
+				gameObject.SetActive(false);
 			} else if(other.tag == "Wall"){
 				DestroyTile();
 			}

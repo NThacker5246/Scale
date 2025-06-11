@@ -1,9 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class FirstAI : MonoBehaviour
 {
+	[SerializeField] private NavMeshAgent agent;
+	[SerializeField] private Transform player;
+	[SerializeField] private Transform bullet;
+
+	[SerializeField] private float timeStart;
+	private float timeCur;
+
+	void Start(){
+		timeCur = timeStart;
+	}
+
+	void Update(){
+		agent.destination = player.position;
+		if(timeCur <= 0){
+			bullet.position = transform.position;
+			bullet.gameObject.SetActive(true);
+			timeCur = timeStart;
+		} else {
+			timeCur -= Time.deltaTime;
+		}
+	}
+	/*
 	public float speed;
 	public Transform player;
 	public float StopDist;
@@ -36,4 +59,5 @@ public class FirstAI : MonoBehaviour
 			timeCur -= Time.deltaTime;
 		}
 	}
+	*/
 }

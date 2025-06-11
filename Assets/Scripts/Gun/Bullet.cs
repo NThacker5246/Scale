@@ -8,12 +8,23 @@ public class Bullet : MonoBehaviour
 	public float Damage;
 	public Rigidbody rb;
 	public Collider col;
+	
+	void OnEnable(){
+		Vector3 startMove = transform.forward * As;
+		rb.velocity = startMove;
+	}
 
 	void Start(){
-		rb = GetComponent<Rigidbody>();
-		Vector3 startMove = Quaternion.Euler(transform.eulerAngles) * new Vector3(0, 0, 100*As);
-		rb.AddForce(startMove);
-		StartCoroutine("resetGun");
+		//rb = GetComponent<Rigidbody>();
+		Vector3 startMove = transform.forward * As;
+		rb.velocity = startMove;
+	}
+
+
+	void Awake(){
+		//rb = GetComponent<Rigidbody>();
+		Vector3 startMove = transform.forward * As;
+		rb.velocity = startMove;
 	}
 
 	IEnumerator resetGun(){

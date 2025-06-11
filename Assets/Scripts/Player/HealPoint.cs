@@ -18,6 +18,15 @@ public class HealPoint : MonoBehaviour
 			if(Player.v3 > 0.01f){
 				Achivement1.SetBool("Ach", true);
 				StartCoroutine("end");
+				return;
+			}
+		}
+		if(other.tag == "BulletE" && !isEnemy){
+			HP -= 2;
+			if(Player.v3 > 0.01f){
+				Achivement1.SetBool("Ach", true);
+				StartCoroutine("end");
+				return;
 			}
 		}
 	}
