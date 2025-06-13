@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
 	public Rigidbody rb;
 	public Collider col;
 	
+	/*
 	void OnEnable(){
 		Vector3 startMove = transform.forward * As;
 		rb.velocity = startMove;
@@ -23,6 +24,11 @@ public class Bullet : MonoBehaviour
 
 	void Awake(){
 		//rb = GetComponent<Rigidbody>();
+		Vector3 startMove = transform.forward * As;
+		rb.velocity = startMove;
+	}
+	*/
+	public void OnEnable(){
 		Vector3 startMove = transform.forward * As;
 		rb.velocity = startMove;
 	}

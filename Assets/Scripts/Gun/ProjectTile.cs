@@ -39,6 +39,7 @@ public class ProjectTile : MonoBehaviour
 	void DestroyTile(){
 		//Destroy(gameObject);
 		isGrounded = true;
-		rb.isKinematic = false;
+		//rb.isKinematic = false;
+		gameObject.SetActive(false);
 	}
 }

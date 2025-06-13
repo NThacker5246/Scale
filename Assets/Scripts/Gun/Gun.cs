@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Gun : MonoBehaviour
 {
 	//public Transform bullet;
-	[SerializeField] private Transform[] bullets;
+	[SerializeField] private Bullet[] bullets;
 	public Transform fcam;
 	public int ammo;
 	public int ammo1;
@@ -25,9 +25,10 @@ public class Gun : MonoBehaviour
 		/*
 		//uncomment for callibrating
 		for(int i = 0; i < 100; ++i){
-			bullets[i] = bullet.GetChild(i);
+			bullets[i] = bullet.GetChild(i).GetComponent<Bullet>();
 		}
 		*/
+		
 	}
 
 	void Update(){
@@ -49,9 +50,10 @@ public class Gun : MonoBehaviour
 		if(Input.GetMouseButtonDown(0) && ammo > 0){
 			flag = true;
 			//GameObject gm = Instantiate(bullet, fcam.position + fcam.forward * 2, Quaternion.Euler(fcam.eulerAngles)); //working slowly
-			bullets[ammo1 - ammo].position = fcam.position + fcam.forward * 2; //requieres more RAM
-			bullets[ammo1 - ammo].eulerAngles = fcam.eulerAngles;
+			bullets[ammo1 - ammo].transform.position = fcam.position + fcam.forward * 2; //requieres more RAM
+			bullets[ammo1 - ammo].transform.eulerAngles = fcam.eulerAngles;
 			bullets[ammo1 - ammo].gameObject.SetActive(true);
+			bullets[ammo1 - ammo].OnEnable();
 			ammo -= 1;
 			print(flag);
 			cdt = dt;
@@ -64,9 +66,10 @@ public class Gun : MonoBehaviour
 		if(cdt <= 0){
 			if(Input.GetMouseButton(0) && ammo > 0){
 				//GameObject gm = Instantiate(bullet, fcam.position + fcam.forward * 2, Quaternion.Euler(fcam.eulerAngles)); //working slowly
-				bullets[ammo1 - ammo].position = fcam.position + fcam.forward * 2; //requieres more RAM
-				bullets[ammo1 - ammo].eulerAngles = fcam.eulerAngles;
+				bullets[ammo1 - ammo].transform.position = fcam.position + fcam.forward * 2; //requieres more RAM
+				bullets[ammo1 - ammo].transform.eulerAngles = fcam.eulerAngles;
 				bullets[ammo1 - ammo].gameObject.SetActive(true);
+				bullets[ammo1 - ammo].OnEnable();
 				ammo -= 1;
 				cdt = dt;
 				print(flag);

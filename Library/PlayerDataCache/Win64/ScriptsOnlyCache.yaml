@@ -29,11 +29,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   serializedClasses:
-    Unity.ProBuilder:
-    - UnityEngine.ProBuilder.AutoUnwrapSettings
-    - UnityEngine.ProBuilder.Face
-    - UnityEngine.ProBuilder.SharedVertex
-    - UnityEngine.ProBuilder.UnwrapParameters
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     UnityEngine.UI:
@@ -53,6 +48,8 @@ ScriptsOnlyBuild:
     - Class: 23
       Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 29
       Script: {instanceID: 0}
     - Class: 33
       Script: {instanceID: 0}
@@ -103,8 +100,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4806}
     - Class: 114
-      Script: {instanceID: 4978}
-    - Class: 114
       Script: {instanceID: 5164}
     - Class: 114
       Script: {instanceID: 5608}
@@ -130,15 +125,29 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 208
+      Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 363
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -581,7 +590,7 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3d841ac847d1009a2b48c59e240e69b7
+      Hash: 33f1179f1d3cb9051ddecfa0ba2e14c0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FirstAI
@@ -833,7 +842,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: f3557ee7e08f90ac6cd28d6e01118854
+      Hash: ac2f351c1ae3d2a31bdc58dc96073a3f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Gun
@@ -1050,4 +1059,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/nicol/Desktop/Alogical/Build1003a/Shooter.exe
+  playerPath: C:/Users/nicol/Desktop/Alogical/Build1004b/Shooter.exe
